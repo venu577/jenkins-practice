@@ -11,7 +11,10 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    echo 'Building..'
+                    sh """
+                       echo 'Building..'
+                       env
+                    """
                 }
             }
         }
