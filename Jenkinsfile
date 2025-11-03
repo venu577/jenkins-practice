@@ -18,7 +18,6 @@ pipeline {
                     sh """
                        echo 'Building..'
                        env
-                       sleep 10
                     """
                 }
             }
