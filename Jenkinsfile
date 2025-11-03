@@ -29,8 +29,7 @@ pipeline {
                        echo 'Building..'
                        env
                        sleep 10
-                       echo "Hello ${params.PERSON}"
-                       
+                       echo "Hello ${params.PERSON}"                       
                     """
                 }
             }
