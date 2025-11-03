@@ -30,6 +30,7 @@ pipeline {
                        env
                        sleep 10
                        echo "Hello ${params.PERSON}"
+                       
                     """
                 }
             }
